@@ -15,4 +15,8 @@ controller
 
     .controller("HomeCtrl",['$scope',function($scope){
         $scope.current=new Date();
+        $(function(){
+            // carousel demo
+            $('#myCarousel').carousel()
+        })
     }]);

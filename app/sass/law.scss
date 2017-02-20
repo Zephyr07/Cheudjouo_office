@@ -1,0 +1,43 @@
+
+@import 'variables/colors';
+
+body{
+  background: $color-1;
+}
+
+
+.header{
+  .navbar-inverse{
+    background: $color-1;
+    color: $color-2;
+  }
+
+  .navbar {
+	li>a{
+	  font-family: 'FranklinGothicFSMediumCondens', Arial, sans-serif;
+	  text-transform: uppercase;
+	  text-decoration: none;
+	  color: #363636;
+	  padding: 15px 18px 18px 18px;
+	  margin: 0;
+	  font-size: 15px;
+	  background: url(../images/navdot.png) no-repeat 100% 15px;
+	  border: 0px;
+	  border-top: 2px solid #FFF;
+	  word-spacing: 1px;
+	  display: inline-block;
+	  vertical-align: middle;
+	}
+
+	.sarch{
+	  border: 0;
+	  width: 17px;
+	  height: 19px;
+	  margin-left: 15px;
+	  padding-right: 0px;
+	  background: url(../images/search.png) no-repeat 0 50%;
+	  position: relative;
+	}
+  }
+
+}
